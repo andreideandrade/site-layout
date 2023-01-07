@@ -13,10 +13,10 @@ export default () =>
                 <div className="Menu">
                     <nav id="menu"> 
                         <ul> 
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Meus projetos</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Quem sou eu</a></li>
                         </ul> 
                     </nav>
                 </div>

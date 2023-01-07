@@ -1,13 +1,13 @@
 .c-nome1{
-    padding: 30px;
+    padding-top: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 9rem;
+    font-size: 12rem;
     color: rgb(255, 166, 0);
 }
 
 .c-nome2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 30px;
-    font-size: 10rem;
+    padding-bottom: 30px;
+    font-size: 12rem;
     color: rgb(0, 0, 0);
 }

@@ -1,8 +1,6 @@
 .topo{
-    background-color: blueviolet;
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .logo{
@@ -11,8 +9,7 @@
     display: flex;
     overflow: hidden;
     flex-direction: column;
-    min-width: 200px;
-   
+    min-width: 200px;   
     flex-wrap: block;
 }
 
@@ -26,19 +23,6 @@
     flex-wrap: wrap;
 }
 
-/*
-    flex: 1;
-    margin: 20px;
-    border: 3px solid #000;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #fff;
-
-    display: flex;
-    flex-direction: column;
-    min-width: 300px;
-*/
-
 .nome1{
     font-size: 2rem;
     color: rgb(255, 166, 0);
@@ -49,27 +33,27 @@
     color: rgb(0, 0, 0);
 }
 
-/* Menu horizontal */
-
 #menu ul 
 {
     padding:10px;
     margin: 10px;
     background-color:#ffffff;
     list-style:none;
-    /* border-bottom:2px solid #ccc; */
 }
 
-#menu ul li { display: inline; }
+#menu ul li { 
+    display: inline; 
+    padding: 10px;
+}
 
 #menu ul li a 
 { 
     padding: 5px; 
-    display: inline-block; /* visual do link */ 
+    display: inline; /* visual do link */ 
     background-color:#ffffff; 
     color: #000; 
     text-decoration: none; 
-    /*border-bottom:5px solid #ccc; */
+    border-bottom:2px solid #ccc;
     font-size: 20px;
 }
 
@@ -80,5 +64,4 @@
     border-bottom:3px solid #000000;
     border-radius: 5px;
     padding: 5px 5px;
-    /*font-style: italic;*/   
 }
